@@ -1,0 +1,15 @@
+{
+  "name": "gamelle-auto-api",
+  "version": "1.0.0",
+  "description": "API pour gamelle automatique pour chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Lavalley",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "python-shell": "^3.0.0"
+  }
+}
