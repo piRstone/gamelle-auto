@@ -74,7 +74,7 @@ app.post('/feed-cat', async (req, res) => {
 	const currentState = await readStateFile();
 	const targetState = currentState === 0 ? 1 : 0;
         const newState = JSON.stringify({ currentState: targetState });
-	await writeStateFile();
+	await writeStateFile(newState);
 
 	res.send({ targetState });
     });
